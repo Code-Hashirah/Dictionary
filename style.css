@@ -49,6 +49,7 @@ h2, h3{
     justify-content: flex-end;
     flex-direction: column;
     min-height: 300px;
+    height: auto;
     background-image: linear-gradient(rgb(0, 85, 255),rgb(159, 13, 76),rgb(198, 10, 42));
 }
 #dT{
@@ -74,6 +75,7 @@ h2, h3{
 }
 #time{
     color: white;
+    flex-wrap: nowrap;
 }
 #search:hover{
     box-shadow: 10px 10px 20px rgb(198, 10, 42);
