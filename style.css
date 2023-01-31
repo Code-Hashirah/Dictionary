@@ -19,6 +19,7 @@ body{
     justify-content: center;
     width: 70%;
     margin-bottom: 0px;
+    margin: auto;
 }
 #design{
     display: flex;
