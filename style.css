@@ -1,0 +1,90 @@
+*{
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+
+body{
+    padding: 20px;
+    background-color: rgb(0, 85, 255);
+    color: white;
+}
+.page{
+    background-color: rgb(0, 85, 255);
+}
+#text{
+    background-color: transparent;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin-bottom: 0px;
+}
+#design{
+    display: flex;
+    justify-content: center;
+}
+#word{
+    background-color: transparent;
+    border-color:white;
+    box-shadow: 2px 2px 1px;
+    border-radius: 12px;
+    height: 60px;
+    color: white;
+    font-size: 14px;
+}
+
+#search{
+    background-color: transparent;
+    color: white;
+}
+h2, h3{
+    color: white;
+}
+#design{
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    min-height: 300px;
+    background-image: linear-gradient(rgb(0, 85, 255),rgb(159, 13, 76),rgb(198, 10, 42));
+}
+#dT{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 50px;
+    flex-direction: column;
+}
+#dT > h2{
+    text-align: center;
+}
+#time-date{
+    display: flex;
+    justify-content: flex-end;
+}
+.meaning{
+    text-shadow: 2px 3px 2px pink;
+}
+#day{
+    color: white;
+    align-self: flex-end;
+}
+#time{
+    color: white;
+}
+#search:hover{
+    box-shadow: 10px 10px 20px rgb(198, 10, 42);
+   
+}
+#word:hover{
+    box-shadow: 10px 5px 10px blue;
+   
+}
+#sample{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
