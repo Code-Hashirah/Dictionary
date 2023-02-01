@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
 </head>
 <body>
-    <section class="page">
+    <form action="">
+         <section class="page">
        
         <div id="dT">
            <div id="time-date">
@@ -18,24 +19,31 @@
             <p id="time"  class="mx-5 "></p> 
             </div>
             <h2> <span  class="my-5  w-100 meaning">We find Meaning</span> <span class="meaning"> for Everything</span> </h2>
-          
+        
        </div>
         <div id="text">
             <input type="text" id="word" class="mx-4 w-100" placeholder="search dictionary">
-            <button class="btn btn-primary"><span class="fa fa-search" id="search"></span></button>
+            <button type="submit" class="btn btn-primary"  onclick="setItBack()"><span class="fa fa-search" id="search"></span></button>
         </div>
         <div id="design">
           
            <section id="sample">
-             <h3>elucidate</h3>
-            <p>e·lu·ci·date [i lssə dàyt]</p>
-            <p>explain something</p>
+             <h3 id="word-display">elucidate</h3>
+            <p id="transcription">e·lu·ci·date [i lssə dàyt]</p>
+            <p id="example">explain something</p>
+            <audio controls autoplay>
+                <source type="audio/mpeg">
+              Your browser does not support the audio element.
+              </audio>
+              <button onclick="player()" id="play-btn">Play</button>
            </section>
            
         </div>
 
     </section>
 
+    </form>
+   
 
 
 
